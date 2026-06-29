@@ -4,22 +4,22 @@ cask "lucenia" do
 
   on_macos do
     on_intel do
-      sha256 "c009450e83e3e565de3407e1f38004805c8636f7762484294bcac700a4c76690"
+      sha256 "010159f7cf6971d92ebfb17bf5a4785e274756520a0c1efe6a5e617b57ad76c9"
       url "https://artifacts.lucenia.io/releases/cli/v#{version}/lucenia_#{version}_darwin_x86_64.tar.gz"
     end
     on_arm do
-      sha256 "23f52c23da04d76a14b7c0c92620faa4fe1da5375eb9137180448e10e877b00f"
+      sha256 "2d93a7666ede4c568f056c3b836595e5b670225f97e7faa22e262a453e22568d"
       url "https://artifacts.lucenia.io/releases/cli/v#{version}/lucenia_#{version}_darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "a3e958b63059266fde53f712ede2824b1ac4876133952e6cfd858248be9cbb12"
+      sha256 "58a807493eb34d22110c6f37c319fa361eb1061e97c0886e60b5592bb9dbe10f"
       url "https://artifacts.lucenia.io/releases/cli/v#{version}/lucenia_#{version}_linux_x86_64.tar.gz"
     end
     on_arm do
-      sha256 "8b774347162f6ad6a659dedf7495c7ff890917322c1549dfa741aaaca2ed52d1"
+      sha256 "b74f48be1f61efe54e7b9cde39ab19dfcdceca38bdf4af8c6235a3fb5e0d5cfb"
       url "https://artifacts.lucenia.io/releases/cli/v#{version}/lucenia_#{version}_linux_arm64.tar.gz"
     end
   end
